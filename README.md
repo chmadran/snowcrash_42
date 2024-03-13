@@ -24,7 +24,11 @@ Step by step :
 * Download the iso that's in the subject
 * Upon launching your VM for the first time, add the snowcrash.iso image
 * You should be prompted to enter a login, enter level00 as login and password
+* Connect in ssh from your terminal, e.g `ssh level00@192.168.56.3 -p 4242` (see below for help on ssh set up)
 * Good luck !
+
+![image](https://github.com/chmadran/snowcrash_42/assets/113340699/832d770e-2129-4676-a606-c2d99429ff52)
+
 
 <h2>USEFUL INFORMATION</h2>
 
