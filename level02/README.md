@@ -35,7 +35,7 @@ This approach allows you to see both the hexadecimal representation of the data 
 
 <details><summary> SOLUTION </summary>
 
-* `su flag01`
+* `su flag02`
 * `ft_waNDRelL0L` as password
 * `getflag`
 * retrieve token
