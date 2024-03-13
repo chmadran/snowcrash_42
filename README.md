@@ -11,11 +11,20 @@ So we must understand the different techniques used to exploit these weaknesses 
 
 <h2>HOW IT WORKS</h2>
 
-To make this project, we will have to use a VM(64 bits) with an ISO that has been provided with the subject. If the configuration is right, we will get a simple prompt with an IP and a login request. We can always login with user:levelXX password:levelXX. But this user has limited permissions. 
+To make this project, we will have to use a VM with an ISO that has been provided with the subject. If the configuration is right, we will get a simple prompt with an IP and a login request. We can always login with user:levelXX password:levelXX. But this user has limited permissions. 
 
 The goal of every exercice is to find the next level's password, also called token. 
 
 The token can be retrieved with the command `getflag`, but only the user `flagXX` that has elevated permission can get an output when launching the command. So either find a way to retrieve the token, or find a way to login as `flagXX` to launch `getflag`.  
+
+<h2>HOW TO START</h2>
+
+Step by step :
+* Create your VM (64 bits), store it in `/sgoinfre`
+* Download the iso that's in the subject
+* Upon launching your VM for the first time, add the snowcrash.iso image
+* You should be prompted to enter a login, enter level00 as login and password
+* Good luck !
 
 <h2>USEFUL INFORMATION</h2>
 
@@ -24,11 +33,12 @@ Useful softwares :
 * John the Ripper / Hashcat to hack passwords  
 * Trouver le type d'encodage [ici](https://www.dcode.fr/identification-chiffrement)    
 
-
 Useful links : 
 * [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
 * [dirtyCow](https://github.com/firefart/dirtycow/blob/master/dirty.c)
-  
-This video [here](https://www.youtube.com/watch?v=Y7KzV-Hl2bw) shows you how to connect in ssh to the snowcrash VM.
+
+Other stuff : 
+* This video [here](https://www.youtube.com/watch?v=Y7KzV-Hl2bw) shows you how to connect in ssh to the snowcrash VM
+* I created a VM with an Ubuntu Desktop to test out stuff in parallel / be able to download whatever I wanted [here](https://ubuntu.com/download/desktop)
 
 Project completed with @SERAC-SGM
