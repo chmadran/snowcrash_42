@@ -44,5 +44,7 @@ Useful links :
 Other stuff : 
 * This video [here](https://www.youtube.com/watch?v=Y7KzV-Hl2bw) shows you how to connect in ssh to the snowcrash VM
 * I created a VM with an Ubuntu Desktop to test out stuff in parallel / be able to download whatever I wanted [here](https://ubuntu.com/download/desktop)
+* You actually have permissions on your home, simply do `chmod 755 .`
+* There are two ways to trick all levels, one is based on the Linux version and the other one is by decoding the getflag executable...
 
 Project completed with @SERAC-SGM
