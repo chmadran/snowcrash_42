@@ -22,6 +22,8 @@ The token can be retrieved with the command `getflag`, but only the user `flagXX
 Useful softwares : 
 * Ghidra to decompile / analyze binary files, it is already installed on your machine
 * John the Ripper / Hashcat to hack passwords  
+* Trouver le type d'encodage [ici](https://www.dcode.fr/identification-chiffrement)    
+
 
 Useful links : 
 * [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
