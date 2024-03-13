@@ -27,7 +27,7 @@ level04@SnowCrash:~$ curl http://localhost:4747/level04.pl?x=test
 test
 ```
 
-$(command): This syntax is used for command substitution in shell, which executes the command and substitutes its output. Since the Perl script uses backticks to execute the contents of the x parameter, including $(getflag) within the parameter might lead the server to execute the getflag command. 
+`$(command)`: This syntax is used for command substitution in shell, which executes the command and substitutes its output. Since the Perl script uses backticks to execute the contents of the x parameter, including $(getflag) within the parameter might lead the server to execute the getflag command. 
 
 `level04@SnowCrash:~$ curl http://localhost:4747/level04.pl?x=$(getflag)` 
 
