@@ -24,6 +24,6 @@ Useful links :
 * [linPEAS](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
 * [dirtyCow](https://github.com/firefart/dirtycow/blob/master/dirty.c)
   
-
+This video [here](https://www.youtube.com/watch?v=Y7KzV-Hl2bw) shows you how to connect in ssh to the snowcrash VM.
 
 Project completed with @SERAC-SGM
