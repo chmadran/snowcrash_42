@@ -1,5 +1,8 @@
 # snowcrash_42
 
+
+![Screenshot from 2024-03-06 13-58-58](https://github.com/chmadran/snowcrash_42/assets/113340699/1cbffc35-1718-4b96-b5ce-8ecbec074942)
+
 <h2>PREAMBLE</h2>
 
 This project is an introduction to cybersecurity. As a developer, we may have to work on softwares that will be used by hundreds if not thousands of persons. If the software shows some weaknesses, these weaknesses will expose the users through the software.
