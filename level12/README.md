@@ -16,7 +16,7 @@ This script does not allow for the same kind of injection due to the uppercasing
 * so use the error log (of apache) ~tail /var/log/apache2/error.log
 * there if you redirect to >%262 (you need to encode “&”) 
 
-
+You can also create a con
 
 <details><summary> SOLUTION </summary>
 
