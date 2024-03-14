@@ -29,4 +29,13 @@ ERROR: ld.so: object '/var/crash/fake_ptrace.so' from LD_PRELOAD cannot be prelo
 Injection Linked lib detected exit..
 ```
 
+SO USE GDB TO CHANGE PTRACE's RETURN (EAX) 
+`gdb /bin/getflag`
+`run`
+`b main`
+`disas main`
+`b`
+
+![image](https://github.com/chmadran/snowcrash_42/assets/113340699/a0e38a6f-e43c-4353-9eb5-12b4f33c57fc)
+![image](https://github.com/chmadran/snowcrash_42/assets/113340699/828137c1-a0aa-4ba0-a991-13f1cd2b1e6d)
 
