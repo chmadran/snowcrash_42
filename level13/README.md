@@ -13,7 +13,7 @@ When decompiling the executable, you can actually notice that you have the funct
 
 <h4>BYPASSING GETUID</h4>
 
-An alternative by my mate Pierrick and Alan, was to override `getuid` by creating a library through LD_PRELOAD that gets called first, and setting the uid to 4242 by default. 
+An alternative by my mate Pierrick and Alan, was to override `getuid` by creating a library through LD_PRELOAD that gets called first, and setting the uid to 4242 by default. Execute it with `gdb` to see the result.
 
 ```
 gcc -shared -fPIC -o libgetuid_override.so getuid.c -ldl
