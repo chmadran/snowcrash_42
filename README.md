@@ -5,9 +5,7 @@
 
 <h2>PREAMBLE</h2>
 
-This project is an introduction to cybersecurity. As a developer, we may have to work on softwares that will be used by hundreds if not thousands of persons. If the software shows some weaknesses, these weaknesses will expose the users through the software.
-
-So we must understand the different techniques used to exploit these weaknesses in order to spot them and avoid them. This project is a modest introduction to the wide world of cyber security. A world where one has no margin for errors.
+This project is an introduction to cybersecurity. It consists in completing 15 CTF (Capture the Flag) challenges. 
 
 <h2>HOW IT WORKS</h2>
 
