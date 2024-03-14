@@ -27,7 +27,6 @@ Step by step :
 
 ![image](https://github.com/chmadran/snowcrash_42/assets/113340699/832d770e-2129-4676-a606-c2d99429ff52)
 
-
 <h2>USEFUL INFORMATION</h2>
 
 Useful softwares : 
