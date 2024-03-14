@@ -45,4 +45,4 @@ Other stuff :
 * You actually have permissions on your home, simply do `chmod 755 .`
 * There are two ways to trick all levels, one is based on the Linux version and the other one is by decoding the getflag executable...
 
-Project completed with @SERAC-SGM
+Project completed with [SERAC-SGM](https://github.com/SERAC-SGM)
