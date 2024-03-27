@@ -11,6 +11,23 @@ When you compile the executable and pass a string as parameter you notice : `aaa
 
 Write a program that decodes the token, who has been encoded by the executable. Meaning you need to reverse the ascii character displayed to its original form by substracting its index.
 
+```
+#include <stdio.h>
+
+int main(int ac, char **av) {
+
+        int i = 0;
+        char c;
+        while (av[1][i] != 0) {
+                c = av[1][i];
+                printf("%c", (c - i));
+                i++;
+        }
+        printf("\n");
+        return 0;
+}
+```
+
 <details><summary> SOLUTION </summary>
   
 * `su level10`
