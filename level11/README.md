@@ -13,6 +13,8 @@ If an attacker were to inject a command such as "; echo hello; #, the echo hello
 
 So simply redirect to a file `$(getflag) > /tmp/flag`.
 
+![image](https://github.com/chmadran/snowcrash_42/assets/113340699/5daee2ac-0bf3-4fb3-93c4-28d25dc52605)
+
 
 <details><summary> SOLUTION </summary>
 
