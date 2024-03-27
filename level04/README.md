@@ -3,7 +3,14 @@
 
 <h4>GETTING STARTED</h4>
 
-When `ls -la` we notice a .pl file. A `.pl` file typically refers to a script written in Perl, a high-level, general-purpose, interpreted, dynamic programming language. P
+When `ls -la` we notice a .pl file. A `.pl` file typically refers to a script written in Perl. This is a CGI, which is a Perl module that allows Perl scripts to interact with web servers and handle HTTP requests and responses.
+
+The script defines a subroutine x that takes a single argument. Inside this subroutine: `$y = $_[0];` assigns the first argument passed to the subroutine to the variable $y.
+print `echo $y 2>&1`; uses backticks to execute the echo command with the contents of `$y` as its argument. The output of echo is then printed. `2>&1` redirects standard error (stderr) to standard output (stdout), so errors from the echo command are also printed.
+
+`x(param("x"));` calls the `x` subroutine with the result of `param("x"`) as its argument. `param("x")` retrieves the value of the "x" parameter from the HTTP request's query string or post data. This means the script takes user input via the "x" parameter and directly passes it to a command execution context (backticks in Perl), which is a critical security issue.
+
+This script is vulnerable to command injection attacks. Since it directly passes user-supplied data (param("x")) to the shell without any sanitization, an attacker could supply specially crafted input to execute arbitrary commands on the server. For example, if an attacker accessed `http://localhost:4747/level04.pl?x=;id`, the server would execute the id command, potentially revealing sensitive information about the server's users.
 
 <h4>INJECTIONS</h4>
 
@@ -32,8 +39,6 @@ test
 `level04@SnowCrash:~$ curl http://localhost:4747/level04.pl?x=$(getflag)` 
 
 Make sure to include single quotes around otherwise the variable will expand before the curl gets executed resulting in running the script as the user level04 instead of flag04.
-
-
 
 <details><summary> SOLUTION </summary>
   
