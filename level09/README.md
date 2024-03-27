@@ -16,6 +16,7 @@ Write a program that decodes the token, who has been encoded by the executable. 
 
 int main(int ac, char **av) {
 
+        (void)ac;
         int i = 0;
         char c;
         while (av[1][i] != 0) {
