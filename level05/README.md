@@ -19,7 +19,7 @@ There's a file `./level05`, if you cat it : ```*/2 * * * * su -c "sh /usr/sbin/o
 
 * `su`: This command is used to switch the current user account to another user account. Without any options, it switches to the root (superuser) account, but in this case, it's used to switch to a specific user account
 * `-c "sh /usr/sbin/openarenaserver"`: The -c option tells su to execute the command specified in the following string, and then exit. Here, the command to be executed is sh /usr/sbin/openarenaserver. This means that the shell (sh) is invoked to execute the script located at /usr/sbin/openarenaserver
-* `flag05`: This part is a bit unusual in its formatting, but it appears to indicate that the command should be run as the user flag05. Normally, the syntax would be su - flag05 -c "command", so the positioning of - flag05 might be a typographical error, or it could be an attempt to specify that the command should run in a login shell for flag05 (though typically - would directly follow su for that purpose).
+* `flag05`: This part is a bit unusual in its formatting, but it appears to indicate that the command should be run as the user flag05. 
 
 <h4>/USR/SBIN/OPENASERVER</h4>
 
@@ -37,7 +37,7 @@ done
 This script, ran as sudo, deletes every file present in the directory `/opt/openarenaserver`. But it is ran as sudo/flag05. So add a script to /opt/openarenaserver with getflag’s output redirected to a new file which you need to store in tmp (or any other place where you can create a file that wont get deleted by this cron).
 
 ```
-getflag > /tmp/flag.txt
+/bin/getflag > /tmp/flag.txt
 ```
 
 <details><summary> SOLUTION </summary>
