@@ -10,7 +10,7 @@ You need to decompile the executable using Ghidra or an online decompiler.
 Here we can see the main prints the environment variable LOGNAME
 So export LOGNAME and relaunch the executable and it prints whats been added to it
 Now try to do that with getflag but actually it says syntax error
-Correct syntax: entre single quotes passer la fonction e.g `export LOGNAME='echo $(getflag) > /tmp/id'`
+Correct syntax: entre single quotes passer la fonction e.g `export LOGNAME='echo $(getflag) > /tmp/flag'`
 
 <details><summary> SOLUTION </summary>
   
