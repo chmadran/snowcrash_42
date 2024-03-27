@@ -3,7 +3,7 @@
 
 <h4>GETTING STARTED</h4>
 
-Another day another executable, se `strings ./level11.lua` to see whats inside. 
+Another day another executable, se `strings ./level11.lua` to see whats inside. It's a program that opens a connexion and waits for a password to compare it with a hashed one. It executes an echo of the password pipes with a sha1sum to get the hashed version, but there is not input validation at the echo stage so its vulnerable to anything. 
 
 <h4>INJECTION VULNERABILITY</h4>
 
