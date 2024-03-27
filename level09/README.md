@@ -11,6 +11,10 @@ When you compile the executable and pass a string as parameter you notice : `aaa
 
 Write a program that decodes the token, who has been encoded by the executable. Meaning you need to reverse the ascii character displayed to its original form by substracting its index.
 
+<h4SCRIPTING</h4>
+
+Then `./a.out $(cat token)`
+
 ```
 #include <stdio.h>
 
